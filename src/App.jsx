@@ -219,20 +219,20 @@ const STEPS = [
 const TESTIMONI = [
   {
     quote:
-      "Tampilan simulasi CAT-nya mirip banget sama yang asli. Waktu ujian BKN kemarin saya jadi tenang karena sudah terbiasa dengan layarnya.",
-    name: "Rafa Aditya",
-    role: "Lulus SKD — Formasi BASARNAS",
+      "Bimbel ini membantu saya untuk lebih siap apabila ada rekrutmen di kemudian hari",
+    name: "Moechammad Alfreda",
+    role: "Peserta Bimbingan Intensif",
   },
   {
     quote:
-      "Favorit saya bagian analisis hasilnya. Grafik per subtes bikin saya tahu harus mulai belajar dari mana, nggak asal latihan.",
-    name: "Nabila Putri",
-    role: "Peserta Tryout CAT BKN",
+      "Bimbel Intisari membantu saya lebih siap dalam menghadapi ujian. Materi SKD sangat update, pembahasannya detail, serta soal try out sangat banyak. Terima kasih dan sukses selalu.",
+    name: "Farah Azmi",
+    role: "Peserta Bimbingan Intensif",
   },
   {
     quote:
-      "Soalnya upgrade terus mengikuti tren. Pembahasan trik cepatnya sangat membantu untuk TIU bagian deret angka dan hijaiyah.",
-    name: "Dimas Prasetyo",
+      "Terima kasih kepada seluruh admin dan pemateri Bimbel Intisari yang telah membimbing kami dengan tips dan trik mengerjakan TKP, TIU, TWK, dan SKD.",
+    name: " Muhammad Ma'rifat",
     role: "Peserta Bimbingan Intensif",
   },
 ];
@@ -391,9 +391,9 @@ function App() {
             </h1>
             <p className="hero__desc reveal">
               Bimbel Intisari adalah bimbingan persiapan seleksi CPNS yang fokus
-              pada simulasi CAT BKN dan tryout khusus BASARNAS dengan bank
-              soal terkini, analisis hasil otomatis, dan pengalaman ujian yang
-              terasa nyata.
+              pada simulasi CAT BKN dan tryout khusus BASARNAS dengan bank soal
+              terkini, analisis hasil otomatis, dan pengalaman ujian yang terasa
+              nyata.
             </p>
             <div className="hero__actions reveal">
               <ButtonPrimary href={TRYOUT_URL}>
@@ -543,9 +543,7 @@ function App() {
               <ButtonPrimary href={TRYOUT_URL}>
                 Coba Tryout Sekarang <Icon name="arrow" size={17} />
               </ButtonPrimary>
-              <span className="plus__note">
-                langsung di browser
-              </span>
+              <span className="plus__note">langsung di browser</span>
             </div>
           </div>
 
@@ -705,7 +703,7 @@ function App() {
             <span>tryout-intisari-1.vercel.app</span>
           </div>
           <ButtonPrimary href={TRYOUT_URL} className="btn--lg cta__btn">
-            Buka Website Tryout 
+            Buka Website Tryout
           </ButtonPrimary>
           <small className="cta__foot">
             tryout-intisari-1.vercel.app — paket tersedia
@@ -742,15 +740,8 @@ function App() {
               Paket Tersedia
             </a>
           </div>
-        
         </div>
-        <div className="container footer__base">
-          <span>
-            © {new Date().getFullYear()} Bimbel Intisari. Seluruh hak cipta
-            dilindungi.
-          </span>
-          <span>Dibuat dengan semangat ASN 🇮🇩</span>
-        </div>
+      
       </footer>
 
       {/* ===== CTA BAR (khusus layar kecil / Android) ===== */}
